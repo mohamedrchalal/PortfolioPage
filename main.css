@@ -1,0 +1,129 @@
+
+body {
+background-image: url("splashbg.jpeg");
+background-size: cover;
+font-family: 'Helvetica Neue UltraLight';
+
+}
+.icons {
+  right: 1.4em;
+}
+.icon {
+  height: 85px;
+  width: 85px;
+  margin: 10px;
+}
+.icon:hover {
+  box-shadow: 0px 5px 20px white, 0px -5px 20px white, -5px 0px 20px white,
+  5px 0px 20px white;
+  border-radius: 50%;
+}
+button:hover {
+  box-shadow: 0px 5px 20px white, 0px -5px 20px white, -5px 0px 20px white,
+  5px 0px 20px white;
+  color: white !important;
+}
+.row{
+  position: relative;
+  color: white;
+  margin: 25px;
+}
+.col-height {
+  border: 1px solid white;
+  margin: 10px 0px 10px 0px;
+  height: 10em;
+}
+.col-height:hover {
+  box-shadow: 0px 5px 20px white, 0px -5px 20px white, -5px 0px 20px white,
+  5px 0px 20px white;
+}
+.AboutMe {
+  background-image: url("AboutMe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid-item {
+  width: 200px;
+}
+.grid-item--width2 {
+  width: 400px;
+}
+
+.projex {
+  background-image: url("Projects.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Resume {
+  background-image: url("Resume.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profpic{
+  position: relative;
+  border-radius: 50%;
+  height: auto;
+  right: 18%;
+  top: 3em;
+  z-index: 9;
+  border: 20px white;
+  border-style: double;
+  opacity: .8;
+}
+.logo {
+  height: auto;
+  z-index: 10;
+}
+.logo:hover {
+  box-shadow: 0px 5px 20px white, 0px -5px 20px white, -5px 0px 20px white,
+  5px 0px 20px white;
+}
+.artdx {
+  background-image: url("artdx.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 990px) {
+  .profpic {
+display: none;
+  }
+  .logo{
+    width: 100%;
+  }
+  .icons {
+    left: 1em;
+  }
+  .FSWD {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .icon {
+    display: inline;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .col-height {
+    background-size: contain;
+  }
+}
+.projImg{
+  height: auto;
+  width: 100%;
+
+}
+.jumbotron {
+  background: transparent;
+  text-align: center;
+  padding: 0!important;
+}
+button {
+  margin-bottom: 10px;
+  background-color: black;
+}
+.desc {
+  margin-top: 1.5em;
+}

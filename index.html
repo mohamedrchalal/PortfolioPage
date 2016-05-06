@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="Portfolio">
+<head>
+  <meta charset="UTF-8">
+  <title>Mohame Chalal Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.4/angular-resource.min.js"></script>
+
+  <script type="text/javascript" src="./ng/app.js"></script>
+  <script type="text/javascript" src="./ng/main.controller.js"></script>
+  <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body >
+<main >
+  <div class="container-fluid">
+
+
+    <div class="row">
+      <img class="col-md-6 col-md-offset-3 logo" src="Portfolio Logo.png" alt="Logo" ui-sref="home"/>
+      <img src="Mohamed Prof 2.png" alt="" class="col-md-2  profpic"/>
+    </div>
+
+    <div class="row" ui-view>
+
+    </div>
+
+
+    <div class="row">
+        <img class="col-md-6 col-md-offset-3 FSWD"src="Full Stack Web Dev.png" alt="FSWD" />
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6 col-md-offset-4 icons">
+        <a href="https://github.com/mohamedrchalal" target="_blank"><img class="icon" src="GitHub.png" alt="GitHub" /></a>
+        <a href="https://profiles.generalassemb.ly/profiles/mohamed" target="_blank"><img class="icon" src="gaLogo.png" alt="GA-Profile" /></a>
+        <a href="https://www.linkedin.com/in/mohamedrchalal" target="_blank"><img class="icon" src="linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://soundcloud.com/kcill-600151872" target="_blank"><img class="icon" src="soundcloud.png" alt="SoundCloud" /></a>
+      </div>
+
+    </div>
+
+  </div>
+</main>
+</body>
+</html>

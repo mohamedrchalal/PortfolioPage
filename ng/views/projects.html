@@ -1,0 +1,50 @@
+<h1 class="jumbotron">Projects</h1>
+<div class="col-md-12">
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <button class="col-md-6 col-md-offset-3 btn" type="button" name="Hand-Off" ng-click="vm.switch(0)">Hand-Off</button>
+        <br>
+        <button class="col-md-6 col-md-offset-3 btn" type="button" name="Scribble" ng-click="vm.switch(1)">Scribble</button>
+        <br>
+        <button class="col-md-6 col-md-offset-3 btn" type="button" name="Gamr" ng-click="vm.switch(2)">Gamr</button>
+        <br>
+        <button class="col-md-6 col-md-offset-3 btn" type="button" name="Trivia" ng-click="vm.switch(3)">DeadPool Trivia</button>
+        <br>
+        <button class="col-md-6 col-md-offset-3 btn" type="button" name="svg-test" ng-click="vm.switch(4)">svg-test</button>
+        <br>
+        <br>
+        <div class="col-md-12 col-md-offset-3">
+
+          <p data-ng-show="vm.active==0" class="Hand-off-desc desc">
+            Welcome to HandOff! A simple and beautiful patient management solution for interns and residents. As a medical student in an ever-evolving technological world, we see shortcomings. The hoops through which residents had to jump to simply sign out their patients to the next team were cumbersome and insecure. The aim of the Hand-Off©&trade; team is to provide a secure, organized and homogenized patient organization system.
+          </p>
+          <p data-ng-show="vm.active==1" class="Scribble-desc desc">
+            A lightweight blog application built on Ruby on Rails, with full CRUD. As a user you may author posts, and comments, as well as edit and delete them. 
+          </p>
+          <p data-ng-show="vm.active==2" class="Gamr-desc desc">
+            How to use app:
+            1. Sign in or Sign up <br>
+            2. Create/edit/delete games from your account <br>
+            3. ??? <br>
+            4. Profit <br>
+          </p>
+          <p data-ng-show="vm.active==3" class="Deadpool-desc desc">
+
+          </p>
+          <p data-ng-show="vm.active==4" class="svg-desc desc">
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-md-offset-1">
+      <div class="row">
+        <img class="projImg" ng-src="{{vm.pictures[vm.active]}}" alt="" />
+      </div>
+    </div>
+
+  </div>
+</div>
