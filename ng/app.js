@@ -40,6 +40,6 @@
       controller: "mainCtrl",
       controllerAs: "vm"
     })
-    $locationProvider.html5Mode(true).hashPrefix('#');
+
   };
 })();
