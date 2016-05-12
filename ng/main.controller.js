@@ -10,6 +10,8 @@
       vm.active = i;
     };
 
-    vm.pictures = ["handoff.png", "Scribble.png", "Gamr.png", "Deadpool.png", "Loading.gif"]
+    vm.mailLink = "mailto:mohamedrchalal@gmail.com" + "?subject=Your Portfolio is Amazing!!!" + "&body=";
+
+    vm.pictures = ["img/handoff.png", "img/Scribble.png", "img/Gamr.png", "img/Deadpool.png", "img/Loading.gif"]
   });
 })();

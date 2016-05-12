@@ -1,9 +1,9 @@
 
 body {
-background-image: url("splashbg.jpeg");
+background-image: url("img/splashbg.jpeg");
 background-size: cover;
+background-repeat: no-repeat;
 font-family: 'Helvetica Neue UltraLight';
-
 }
 .icons {
   right: 1.4em;
@@ -38,7 +38,7 @@ button:hover {
   5px 0px 20px white;
 }
 .AboutMe {
-  background-image: url("AboutMe.png");
+  background-image: url("img/AboutMe.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -51,13 +51,13 @@ button:hover {
 }
 
 .projex {
-  background-image: url("Projects.png");
+  background-image: url("img/Projects.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .Resume {
-  background-image: url("Resume.png");
+  background-image: url("img/Resume.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -82,7 +82,7 @@ button:hover {
   5px 0px 20px white;
 }
 .artdx {
-  background-image: url("artdx.png");
+  background-image: url("img/Contact.png");
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -8,10 +8,13 @@
   ])
   .config([
     "$stateProvider",
+    "$locationProvider",
+    "$sceProvider",
     RouterFunction
   ]);
 
-  function RouterFunction($stateProvider){
+  function RouterFunction($stateProvider, $locationProvider, $sceProvider){
+    $sceProvider.enabled(false);
     $stateProvider
     .state("home", {
       url: "/",
@@ -37,5 +40,6 @@
       controller: "mainCtrl",
       controllerAs: "vm"
     })
+    $locationProvider.html5Mode(true).hashPrefix('#');
   };
 })();
