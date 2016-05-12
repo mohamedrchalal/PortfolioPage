@@ -12,6 +12,6 @@
 
     vm.mailLink = "mailto:mohamedrchalal@gmail.com" + "?subject=Your Portfolio is Amazing!!!" + "&body=";
 
-    vm.pictures = ["img/handoff.png", "img/Scribble.png", "img/Gamr.png", "img/Deadpool.png", "img/Loading.gif"]
+    vm.pictures = ["Images/handoff.png", "Images/Scribble.png", "Images/Gamr.png", "Images/Deadpool.png", "Images/Loading.gif"]
   });
 })();

@@ -1,6 +1,6 @@
 
 body {
-background-image: url("img/splashbg.jpeg");
+background-image: url("Images/splashbg.jpeg");
 background-size: cover;
 background-repeat: no-repeat;
 font-family: 'Helvetica Neue UltraLight';
@@ -38,7 +38,7 @@ button:hover {
   5px 0px 20px white;
 }
 .AboutMe {
-  background-image: url("img/AboutMe.png");
+  background-image: url("Images/AboutMe.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -51,13 +51,13 @@ button:hover {
 }
 
 .projex {
-  background-image: url("img/Projects.png");
+  background-image: url("Images/Projects.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .Resume {
-  background-image: url("img/Resume.png");
+  background-image: url("Images/Resume.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -82,7 +82,7 @@ button:hover {
   5px 0px 20px white;
 }
 .artdx {
-  background-image: url("img/Contact.png");
+  background-image: url("Images/Contact.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -110,7 +110,7 @@ display: none;
     background-size: contain;
   }
 }
-.projImg{
+.projimg{
   height: auto;
   width: 100%;
 
